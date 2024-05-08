@@ -247,121 +247,101 @@
         color: #102136; 
     }
 }
-/* .box1 a, .box2 a, .box3 a, .box4 a {
+
+.heading {
     display: flex;
-    justify-content: center; Căn giữa theo chiều ngang
-    align-items: flex-end; Đặt ở phía dưới
-    text-align: center; Căn giữa nội dung
-    position: absolute; Để có thể sử dụng position absolute cho phần nội dung
-    padding-bottom: 20px; Khoảng cách phía dưới giữa nội dung và bottom edge của box
-    margin: 0px;
-    width: 260px;
-    height: 16px;
-    
-} */
-.heading{
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* position: absolute; */
+    align-items: center;
+    justify-content: center;
+    position: absolute;
     height: 490px;
     width: 1920px;
     background-color: #EFF2FF;
 }
 
-.season1{
-    position: absolute;
+.season1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 193.62px;
     height: 25px;
-    margin-top: 2.1%;
-    margin-left: 15.2%;
-    h2{
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    top: 0; /* Đặt ở phía trên cùng */
+}
 
-   
+.h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
     color: #102136;
-    }
 }
-.row1{
+
+.row1 {
+    
     background-color: rgb(30, 224, 143);
+    width: 100%;
     display: flex;
-    position: relative;
-    width: 1120px;
-    height: 325px;
+    flex-wrap: wrap; /* Cho phép các box chồng lên nhau */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 .butt {
-    /* Link */
     border: none;
     width: 146.7px;
     height: 39px;
-    left: 0px;
-    top: 10px;
     background: #ffe200;
     border-radius: 15px;
-    margin-top: 40px;
-    margin-left: 50px;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
-    display: flex;
     position: absolute;
-    img{
-        position: absolute;
-        
-        top: 72.5%;
-        left: 14.5%;
-    }
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
 .box1{
     background: url(../image/heading/box1.png) no-repeat;
-    background-color: #FFFFFF;
-    display: flex; 
-    /* position: absolute;  */
-    width: 260px;
-    height: 325px;
-    margin: 20px;
-
-    border-radius: 15px;
 }
 .box2{
     background: url(../image/heading/box2.png) no-repeat;
-    /* display: flex; */
-    background-color: greenyellow;
-    display: flex; 
-    /* position: absolute;  */
-    width: 260px;
-    height: 325px;
-    border-radius: 15px;
-    margin: 20px;
-    margin: 20px;
 }
 .box3{
     background: url(../image/heading/box3.png) no-repeat;
-    /* display: flex; */
-    background-color: greenyellow;
-    display: flex; 
-    /* position: absolute;  */
-    width: 260px;
-    height: 325px;
-    border-radius: 15px;
-    margin: 20px;
 }
 .box4{
     background: url(../image/heading/box4.png) no-repeat;
-    background-color: greenyellow;
-    display: flex; 
-    /* position: absolute;  */
+}
+.box1, .box2, .box3, .box4 {
+    background-color: #FFFFFF;
     width: 260px;
     height: 325px;
-    border-radius: 15px;
     margin: 20px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center; /* Căn giữa nội dung */
 }
 
+.box1 a, .box2 a, .box3 a, .box4 a {
+ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%;
+    text-align: center; 
+    padding: 0 20px; 
+
+}
+
+.box1 button, .box2 button, .box3 button, .box4 button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 /* heading 2-- */
 .heading2{
