@@ -288,11 +288,75 @@
     padding-bottom: 20px;
 }
 
-.butt {
+.tieude {
+ 
+    display: flex; 
+    color: white;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%;
+    text-align: center; 
+    padding: 0 20px; 
+
+}
+
+.butt1 {
     border: none;
     width: 146.7px;
     height: 39px;
-    background: #ffe200;
+    background: #7001DA;
+    color: white;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.butt2 {
+    border: none;
+    width: 146.7px;
+    height: 39px;
+    background: #000000;
+    color: white;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.butt3 {
+    border: none;
+    width: 146.7px;
+    height: 39px;
+    background: #0D67ED;
+    color: white;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.butt4 {
+    border: none;
+    width: 146.7px;
+    height: 39px;
+    background: #005E45;
+    color: white;
     border-radius: 15px;
     font-weight: 600;
     font-size: 14px;
@@ -317,6 +381,7 @@
 }
 .box1, .box2, .box3, .box4 {
     background-color: #FFFFFF;
+    flex-direction: column;
     width: 260px;
     height: 325px;
     margin: 20px;
@@ -325,16 +390,6 @@
     text-align: center; /* Căn giữa nội dung */
 }
 
-.box1 a, .box2 a, .box3 a, .box4 a {
- 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-between; 
-    height: 100%;
-    text-align: center; 
-    padding: 0 20px; 
-
-}
 
 .box1 button, .box2 button, .box3 button, .box4 button {
     position: absolute;
