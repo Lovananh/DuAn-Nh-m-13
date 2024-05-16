@@ -61,7 +61,7 @@
     gap: 0%;
     
 }
-.seach{
+.search{
     background: url(../image/Search.png)  no-repeat center;
 
     /* background-color: #ffe200; */
@@ -94,8 +94,15 @@
     height: 34px;
     background: #5E3FDE;
     color: #FFFF;
+    
     border-radius: 3px;
     border: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5A20CB;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-left: 1rem;
 }
 .logo {
     background: url(../image/logo.png) no-repeat left;
