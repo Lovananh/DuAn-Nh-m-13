@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5A20CB;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 1rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #5A20CB;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.login {
+    background-color: #fff;
+    color: #5A20CB;
+    border: 1px solid #5A20CB;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 2rem 0;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.remember-me input {
+    margin-right: 0.5rem;
+}
+
+.forgot {
+    color: #5A20CB;
+    text-decoration: none;
+}
+
+button {
+    background-color: #5A20CB;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-link {
+    margin-top: 1rem;
+}
+
+.register-link a {
+    color: #5A20CB;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #5A20CB;
+    color: #fff;
+    padding: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-content .quote {
+    max-width: 200px;
+}
+
+.footer-content .links ul {
+    list-style: none;
+}
+
+.footer-content .links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-content .links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-content .social-media {
+    text-align: center;
+}
+
+.footer-content .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 1rem;
+}
