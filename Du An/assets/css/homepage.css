@@ -367,8 +367,16 @@
     transform: translateX(-50%);
 }
 
-.box1{
+.pic1{
     background: url(../image/heading/box1.png) no-repeat;
+    /* video-editing.webp */
+position: absolute;
+width: 260px;
+height: 182px;
+left: calc(50% - 260px/2);
+top: calc(50% - 182px/2 - 61.5px);
+border-radius: 8px 8px 0px 0px;
+
 }
 .box2{
     background: url(../image/heading/box2.png) no-repeat;
