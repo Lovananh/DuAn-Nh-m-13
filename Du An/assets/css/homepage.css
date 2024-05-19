@@ -115,7 +115,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* Đảm bảo nền không tràn ra ngoài */
+    /* overflow: hidden; Đảm bảo nền không tràn ra ngoài */
+    z-index: 2;
+    
+    background: linear-gradient(209.03deg, #000000 8%, #2F00A8 86%);
+
 }
 
 .background {
@@ -124,27 +128,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-
-    background: linear-gradient(to top right, rgba(42, 32, 79, 0.5), rgba(207, 194, 194, 0), #011201); /* Màu nền */
-    z-index: 1; /* Đặt lớp nền phía dưới */
-}
-
-.image {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: absolute; 
     background: url(../image/heading.png) no-repeat center/ cover;
-    z-index: 2; /* Đặt hình ảnh phía trên lớp nền */
-}
-
-.nen {
-    position: absolute;
-    top: 0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(33, 36, 79);
-    z-index: 3; /* Đặt màu đè phía trên hình ảnh */
+    z-index: 1; /* Đặt hình ảnh phía trên lớp nền */
 }
 
 .nd{
@@ -259,7 +245,7 @@
     }
 }
 
-.heading {
+.heading1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -399,6 +385,46 @@ border-radius: 8px 8px 0px 0px;
 }
 .pic-box3-2{
     background:url(../image/heading/box3-2.png)no-repeat;
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px;
+}
+/* box4-image */
+
+.pic-box4-1{
+    background:url(../image/heading/box4-1.png)no-repeat;
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.pic-box4-2{
+    background:url(../image/heading/box4-2.png)no-repeat;
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.pic-box4-3{
+    background:url(../image/heading/box4-3.png)no-repeat;
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px;
+}
+.pic-box4-4{
+    background:url(../image/heading/box2.png)no-repeat;
     position: absolute;
     width: 260px;
     height: 182px;
@@ -565,7 +591,7 @@ bottom: 0px;
     height: 39px;
     background: #0D67ED;
     color: white;
-    border-radius: 15px;
+    border-radius: 40px;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
@@ -687,8 +713,9 @@ color: #102136;
 
 
 }
+
 .row3{
-    background-color: rgb(206, 128, 26);
+    background-color: rgb(59, 26, 206);
     display: flex;
 
 position: absolute;
@@ -707,8 +734,120 @@ top: 65px;
     align-content: center;
     height: 450px;
     width: 1920px;
-    background-color: rgb(133, 13, 13);
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 2060px;
+    background: #EFF2FF;
 }
+.season4{
+    /* Heading 2 → Editing & Design */
+
+    position: absolute;
+    width: 208.88px;
+    height: 25px;
+    left: 410px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+
+    color: #102136;
+}
+.row4{
+    background-color: #b0f905;
+    position: absolute;
+    width: 1120px;
+    height: 325px;
+    left: calc(50% - 1120px/2);
+    top: 65px;
+}
+
+
+.heading5 {
+    /* Section */
+    display: flex;
+    position: absolute;
+    height: 568px;
+    width: 100%;
+    left: 0;
+    top: 2510px;
+    background: linear-gradient(120.14deg, #3204A9 30%, #000000 100%);
+    z-index: 1;
+}
+
+.word5 {
+    /* div.elementor-container */
+    position: absolute;
+    width: 1140px;
+    height: 568px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+
+.word5-main {
+    /* div.elementor-widget-wrap */
+    position: absolute;
+    left: 0;
+    right: 570px;
+    top: 132px;
+    bottom: 132px;
+    /* Heading 2 → */
+    width: 491.51px;
+    height: 284px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.6px;
+    color: #FFFFFF;
+}
+
+.pic-2 {
+    /* div.elementor-widget-wrap */
+    position: absolute;
+    left: 570px;
+    right: 0;
+    top: 12.75px;
+    bottom: 12.75px;
+}
+
+.pic-2s {
+    /* course-banner-11_preview_rev_2.webp */
+    background: url(../image/anh-2.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    width: 522.5px;
+    height: 522.5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.anhnen {
+    background: url(../image/anhnen.png) no-repeat center center;
+    background-size: cover;
+    /* div.elementor-background-overlay */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.5; /* Increase opacity to make it more visible */
+    z-index: 2;
+}
+
  .footer {
    
         display: flex;
@@ -716,7 +855,7 @@ top: 65px;
     height: 501.59px;
     width: 1920px;
     position: relative;
-    background-color: orange;
+    background-color: rgb(210, 37, 132);
     
     
 }
