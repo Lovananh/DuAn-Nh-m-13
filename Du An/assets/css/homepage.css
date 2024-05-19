@@ -266,24 +266,10 @@
     position: absolute;
     height: 490px;
     width: 1920px;
-    background-color: #EFF2FF;
-
-    
+    background-color: #EFF2FF;  
 }
 
 .season1 {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 193.62px;
-    height: 25px;
-    position: absolute; Đặt vị trí tuyệt đối
-    top: 0; Đặt ở phía trên cùng */
-
-
-    /* bản figma */
-    /* Heading 2 → Active Courses */
-
     position: absolute;
     width: 193.62px;
     height: 25px;
@@ -293,7 +279,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 16px;
     line-height: 25px;
 /* identical to box height, or 100% */
     display: flex;
@@ -355,14 +341,71 @@ top: calc(50% - 182px/2 - 61.5px);
 border-radius: 8px 8px 0px 0px;
 
 }
-/*
-.box3{
+.pic-box3{
     background: url(../image/heading/box3.png) no-repeat;
-}
-.box4{
-    background: url(../image/heading/box4.png) no-repeat;
-} */
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px;
 
+}
+
+.pic-box4{
+    background: url(../image/heading/box4.png) no-repeat;
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px;
+}
+.pic-box2-2{
+    background:url(../image/heading/box2-2\ .png)no-repeat;
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px; 
+}   
+.pic-box2-3{
+    background:url(../image/heading/box2-3.png)no-repeat;
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px;
+}
+.pic-box2-4{
+    background:url(../image/heading/box2-4.png)no-repeat;
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px;
+}
+.pic-box3-1{
+    background:url(../image/heading/box3-1.png)no-repeat;
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px;
+}
+.pic-box3-2{
+    background:url(../image/heading/box3-2.png)no-repeat;
+    position: absolute;
+    width: 260px;
+    height: 182px;
+    left: calc(50% - 260px/2);
+    top: calc(50% - 182px/2 - 61.5px);
+    border-radius: 8px 8px 0px 0px;
+}
 .box1 {
     /* bản gốc */
     /* background-color: #FFFFFF;
@@ -393,7 +436,29 @@ top: 0px;
 bottom: 0px;
 
 }
-.box1-small, .box2-small{
+.box3{
+    /* div.elementor-column */
+
+position: absolute;
+left: 560px;
+right: 280px;
+top: 0px;
+bottom: 0px;
+
+
+}
+.box4{
+    /* div.elementor-column */
+
+    position: absolute;
+    left: 840px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+
+}
+.box1-small, .box2-small, .box3-small, .box4-small{
     /* div.elementor-widget-wrap */
 
     position: absolute;
@@ -405,6 +470,8 @@ bottom: 0px;
     background: #FFFFFF;
     border-radius: 20px;
 
+
+    
 }
 
 .tieude {
@@ -435,7 +502,7 @@ bottom: 0px;
     font-size: 18px;
     line-height: 18px;
     
-        a.{
+        .a{
             /* Web Design */
 
     position: absolute;
@@ -522,6 +589,11 @@ bottom: 0px;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+
+
+    /* div.elementor-column */
+   
+
 }
 
 .box1 button, .box2 button, .box3 button, .box4 button {
@@ -529,44 +601,103 @@ bottom: 0px;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 
 /* heading 2-- */
 .heading2{
     display: flex;
-   
-    justify-content: center;
+    position: absolute;
     align-items: center;
-    align-content: center;
+    justify-content: center;
     height: 440px;
     width: 1920px;
-    background-color: rgb(206, 18, 200);
+    left: 0px;
+    right: 0px;
+    top: 1170px;
+    background: #EFF2FF;
+}
+.season2{
+    /* Heading 2 → Design and development */
+
+position: absolute;
+width: 323.03px;
+height: 25px;
+left: 410px;
+top: 10px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+
+color: #102136;
+
+
 }
 .row2{
     background-color: rgb(206, 128, 26);
-    display: flex;
-    margin: 10px 0px;
+    position: absolute;
+  
     width: 1120px;
     height: 325px;
+    left: calc(50% - 1120px/2);
+    top: 55px;
 }
 
 /* hết phần row 2 */
 .heading3{
     display: flex;
-    
     justify-content: center;
     align-items: center;
     align-content: center;
     height: 450px;
     width: 1920px;
-    background-color: rgb(133, 13, 13);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 1610px;
+    background: #EFF2FF;
+
+
+}
+.season3{
+    /* Heading 2 → Marketplace */
+
+position: absolute;
+width: 163.81px;
+height: 25px;
+left: 410px;
+top: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 25px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+
+color: #102136;
+
+
 }
 .row3{
     background-color: rgb(206, 128, 26);
     display: flex;
-    margin: 10px 0px;
-    width: 1120px;
-    height: 325px;
+
+position: absolute;
+width: 1120px;
+height: 325px;
+left: calc(50% - 1120px/2);
+top: 65px;
+
+
 }
 /* heading 4 */
 .heading4{
