@@ -3,13 +3,8 @@
     margin: auto;
 }
 
-/* #main {
-    width: 1920px;
-    background-color: #FFFF;
-    display: block;
 
-} */
-.main {
+.container{
     /* Home */
 
     position: relative;
@@ -45,9 +40,6 @@
     border-radius: 36px;
 
 }
-
-.gototop-icons {}
-
 .menu {
 
     /* background-color: rgb(248, 194, 194); */
