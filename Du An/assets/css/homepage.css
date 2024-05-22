@@ -38,7 +38,7 @@
     top: 1017px;
     background: url(../image/Link\ -\ Go\ to\ top.png) no-repeat;
     border-radius: 36px;
-
+    z-index: 1;
 }
 .menu {
 
@@ -159,7 +159,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    position: absolute;
+    /* position: absolute; */
     background: url(../image/heading.png) no-repeat center/ cover;
     z-index: 1;
     /* Đặt hình ảnh phía trên lớp nền */
@@ -291,6 +291,8 @@
     position: absolute;
     height: 490px;
     width: 1920px;
+    left: 0px;
+    right: 0px;
     background-color: #EFF2FF;
 }
 
@@ -1500,7 +1502,7 @@
 
 }
 
-.list {
+.list-end {
     /* List */
     justify-content: space-between;
     position: absolute;
@@ -1644,51 +1646,3 @@
     left: calc(50% - 18px/2 + 301px);
     top: calc(50% - 18px/2 - 0.75px);
 }
-
-
-/* 
-footer {
-    background-color: #5A20CB;
-    color: #fff;
-    padding: 2rem;
-    margin-top: 4004px;
-    width: 1920px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.footer-content .quote {
-    max-width: 200px;
-}
-
-.footer-content .links ul {
-    list-style: none;
-}
-
-.footer-content .links li {
-    margin-bottom: 0.5rem;
-}
-
-.footer-content .links a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.footer-content .social-media {
-    text-align: center;
-}
-
-.footer-content .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-}
-
-.copyright {
-    text-align: center;
-    margin-top: 1rem;
-} */
