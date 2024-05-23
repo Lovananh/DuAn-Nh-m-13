@@ -251,8 +251,8 @@ border: 1px solid #E0E0E0;
 border-radius: 3px;
 
   } */
-  
-.text-one{
+
+.text-one {
     position: absolute;
     /* display: flex; */
     top: 0px;
@@ -267,55 +267,259 @@ border-radius: 3px;
 }
 
 .form-group {
-    margin-bottom: 15px;
-    left: 0px;
-    right: 0px;
+    /* margin-bottom: 15px; */
+
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 30px;
 }
 
-.form-group label {
-    font-size: 14px;
-    font-weight: 600;
-    color: #102136;
+.form-group2 {
+    /* Form */
+
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 116px;
+
+}
+
+.form-group3 {
+    /* Form */
+    /* Form */
+
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 202px;
+
+
+
+}
+
+.form-group4 {
+    /* Form */
+
+    /* Form */
+
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 288px;
+
+
+}
+
+.form-group5 {
+    /* Form */
+    /* Form */
+
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 374px;
+
+
+}
+
+.form-group6 {
+    /* Form */
+
+    /* Form */
+
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 460px;
+
+
+}
+
+.form-group7 {
+    /* Form */
+    /* Form */
+
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 546px;
+
+
+
+}
+
+.form-group8 {
+    /* Form */
+
+    position: absolute;
+    height: 61px;
+    left: 30px;
+    right: 30px;
+    top: 632px;
+
+
+}
+
+.form-group9 {
+    /* Form */
+    /* Form */
+
+    position: absolute;
+    height: 191px;
+    left: 30px;
+    right: 30px;
+    top: 718px;
+
+
+
+
+}
+
+.form-group10 {
+    /* Form */
+
+    /* Form → Input */
+
+    position: absolute;
+    width: 101.48px;
+    height: 40px;
+    left: 30px;
+    top: 980px;
+
+    background: #7456F1;
+    border-radius: 3px;
+
+
+}
+
+label {
+    /* color: #102136; */
     margin-bottom: 5px;
     display: block;
+
+
+    b {
+
+
+        position: absolute;
+        width: 100%;
+        height: 21px;
+        left: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+
+
+    }
+
 }
 
-.form-group input,
-.form-group textarea {
-    width: 490px;
+input {
+
+    /* width: 490px;
     padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 4px;
     font-size: 14px;
-    height: 40px;
- 
+    height: 40px; */
+
 
     /* Input */
 
-box-sizing: border-box;
-/* 
-position: absolute;
-height: 40px;
-left: 0px;
-right: 0px;
-top: 21px;
-display: block;
-border: 1px solid #E0E0E0;
-border-radius: 3px; */
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 40px;
+    left: 0px;
+    right: 0px;
+    top: 21px;
+    display: block;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+
+
 
 }
 
-.form-group textarea {
+.form-group9 textarea {
     resize: none;
+    position: absolute;
+    width: 490px;
+    height: 170px;
+    top: 21px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #fffdfd;
+    resize: none;
+
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+
+
 }
 
-.form-group.check {
+.form-group-check {
+    display: flex;
+    width: 490px;
+    position: absolute;
+    height: 21px;
+    left: 30px;
+    right: 30px;
+    top: 934px;
+
+
+}
+
+
+.form-group-check input {
+    /* margin-right: 10px; */
+    box-sizing: border-box;
+ display: flex;
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 0px;
+
+    top: 54px;
+
+    background: #FFFFFF;
+    border: 1px solid #767676;
+    border-radius: 2.5px;
+
+}
+
+.form-group-check label {
+    position: absolute;
+    width: 268.83px;
+    height: 21px;
+    left: 16.91px;
+    top: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
     display: flex;
     align-items: center;
-}
 
-.form-group.check input {
-    margin-right: 10px;
+    color: #390ACF;
+
+
 }
 
 .btn-submit {
