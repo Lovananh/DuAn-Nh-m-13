@@ -97,7 +97,6 @@
 }
 
 .login {
-    background: url(../image/Login.png) no-repeat center;
     width: 20px;
     height: 20px;
 }
@@ -125,7 +124,11 @@
     background-color: #5A20CB;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    margin-left: 1rem;
+    margin-left: 16px;
+}
+
+.right:hover {
+    background-color:  #1f0393;
 }
 
 
@@ -268,7 +271,6 @@ border-radius: 3px;
 
 .form-group {
     /* margin-bottom: 15px; */
-
     position: absolute;
     height: 61px;
     left: 30px;
@@ -277,138 +279,100 @@ border-radius: 3px;
 }
 
 .form-group2 {
-    /* Form */
-
     position: absolute;
     height: 61px;
     left: 30px;
     right: 30px;
     top: 116px;
-
 }
 
 .form-group3 {
-    /* Form */
-    /* Form */
-
     position: absolute;
     height: 61px;
     left: 30px;
     right: 30px;
     top: 202px;
-
-
-
 }
 
 .form-group4 {
-    /* Form */
-
-    /* Form */
-
     position: absolute;
     height: 61px;
     left: 30px;
     right: 30px;
     top: 288px;
-
-
 }
 
 .form-group5 {
-    /* Form */
-    /* Form */
-
     position: absolute;
     height: 61px;
     left: 30px;
     right: 30px;
     top: 374px;
-
-
 }
 
 .form-group6 {
-    /* Form */
-
-    /* Form */
-
     position: absolute;
     height: 61px;
     left: 30px;
     right: 30px;
     top: 460px;
-
-
 }
 
 .form-group7 {
-    /* Form */
-    /* Form */
-
     position: absolute;
     height: 61px;
     left: 30px;
     right: 30px;
     top: 546px;
-
-
-
 }
 
 .form-group8 {
-    /* Form */
-
     position: absolute;
     height: 61px;
     left: 30px;
     right: 30px;
     top: 632px;
-
-
 }
 
 .form-group9 {
-    /* Form */
-    /* Form */
-
     position: absolute;
     height: 191px;
     left: 30px;
     right: 30px;
     top: 718px;
-
-
-
-
 }
 
 .form-group10 {
-    /* Form */
-
-    /* Form → Input */
-
     position: absolute;
     width: 101.48px;
     height: 40px;
     left: 30px;
     top: 980px;
-
-    background: #7456F1;
     border-radius: 3px;
+}
 
+.btn-submit {
+    background-color: #7456F1;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    top: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
+.btn-submit:hover {
+    background-color:  #3c1ac4;
 }
 
 label {
     /* color: #102136; */
     margin-bottom: 5px;
     display: block;
-
-
     b {
-
-
         position: absolute;
         width: 100%;
         height: 21px;
@@ -422,26 +386,11 @@ label {
         align-items: center;
 
         color: #000000;
-
-
     }
-
 }
 
 input {
-
-    /* width: 490px;
-    padding: 10px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    font-size: 14px;
-    height: 40px; */
-
-
-    /* Input */
-
     box-sizing: border-box;
-
     position: absolute;
     height: 40px;
     left: 0px;
@@ -450,9 +399,6 @@ input {
     display: block;
     border: 1px solid #E0E0E0;
     border-radius: 3px;
-
-
-
 }
 
 .form-group9 textarea {
@@ -468,8 +414,6 @@ input {
 
     border: 1px solid #E0E0E0;
     border-radius: 3px;
-
-
 }
 
 .form-group-check {
@@ -480,22 +424,18 @@ input {
     left: 30px;
     right: 30px;
     top: 934px;
-
-
 }
 
 
 .form-group-check input {
-    /* margin-right: 10px; */
+    margin-left: 0px;
     box-sizing: border-box;
- display: flex;
+    display: flex;
     position: absolute;
     width: 13px;
     height: 13px;
-    left: 0px;
-
-    top: 54px;
-
+    top:    4px;
+    /* left: 0px; */
     background: #FFFFFF;
     border: 1px solid #767676;
     border-radius: 2.5px;
@@ -507,8 +447,8 @@ input {
     width: 268.83px;
     height: 21px;
     left: 16.91px;
-    top: 50px;
-
+    /* top: 50px; */
+    /* left: 0px; */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -518,44 +458,7 @@ input {
     align-items: center;
 
     color: #390ACF;
-
-
 }
-
-.btn-submit {
-    background-color: #FF5353;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 600;
-    top: 1000px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn-submit:hover {
-    background-color: #e94b4b;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 
