@@ -9,7 +9,7 @@ document.getElementById('main-form').addEventListener('submit', function (event)
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
     const passwordConf = document.getElementById('password-conf').value;
-    const payment = document.getElementById('payment').value;
+    const payment = document.getElementById('Payment').value;
     const web = document.getElementById('web').value;
     const promotion = document.getElementById('promotion').value;
     const agree = document.getElementById('agree').checked;
@@ -17,11 +17,14 @@ document.getElementById('main-form').addEventListener('submit', function (event)
     // Kiểm tra mật khẩu có khớp nhau không
     if (password !== passwordConf) {
         alert('Mật khẩu và Xác nhận mật khẩu không khớp nhau.');
+        document.getElementById('password').value = '';
+        document.getElementById('password-conf').value = '';
+        document.getElementById('password').focus();    
         return;
     }
 
     // Kiểm tra các trường bắt buộc
-    if (!uname || !fname || !lname || !email || !password || !passwordConf || !payment || !web || !promotion || !agree) {
+    if (!uname || !fname || !lname || !email || !password || !passwordConf || !Payment || !web || !promotion || !agree) {
         alert('Vui lòng điền đầy đủ các trường bắt buộc.');
         return;
     }
@@ -41,5 +44,7 @@ document.getElementById('main-form').addEventListener('submit', function (event)
 
     alert('Đăng ký thành công!');
     // Xử lý gửi form hoặc AJAX tại đây
+
+    window.location.href = 'https://www.example.com';
 });
 

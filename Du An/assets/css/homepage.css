@@ -99,7 +99,6 @@
 }
 
 .login {
-    background: url(../image/Login.png) no-repeat center;
     width: 20px;
     height: 20px;
 }
@@ -117,7 +116,7 @@
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 14px;
-    background: #5E3FDE;
+    /* background: #5E3FDE; */
     color: #FFFF;
 
     border-radius: 3px;
@@ -128,6 +127,11 @@
     padding: 0.5rem 1rem;
     border-radius: 5px;
     margin-left: 1rem;
+    transition: background-color 0.3s;
+}
+
+.right:hover {
+    background-color:  #1f0393;
 }
 
 .logo {
