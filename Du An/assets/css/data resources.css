@@ -36,7 +36,7 @@
     left: 1859px;
     right: 25px;
     top: 1017px;
-    background: url(./Link\ -\ Go\ to\ top.png) no-repeat;
+    background: url(../image/Link\ -\ Go\ to\ top.png) no-repeat;
     border-radius: 36px;
 
 }
@@ -86,7 +86,7 @@
 }
 
 .search {
-    background: url(./Search.png) no-repeat center;
+    background: url(../image/Search.png) no-repeat center;
 
     /* background-color: #ffe200; */
     width: 15px;
@@ -94,13 +94,12 @@
 }
 
 .link {
-    background: url(./Link.png) no-repeat center;
+    background: url(../image/Link.png) no-repeat center;
     width: 58.64px;
     height: 17px;
 }
 
-.login {
-    background: url(./Login.png) no-repeat center;
+.login {  
     width: 20px;
     height: 20px;
 }
@@ -129,15 +128,22 @@
     padding: 0.5rem 1rem;
     border-radius: 5px;
     margin-left: 1rem;
+    transition: background-color 0.3s;
+}
+
+.right:hover {
+    background-color:  #1f0393;
 }
 
 .logo {
-    background: url(./logo.png) no-repeat left;
+    background: url(../image/logo.png) no-repeat left;
     margin-left: auto;
     width: 691.33px;
     height: 70px;
+    ;
     display: flex;
 }
+
 
 .under_header {
     position: relative;
@@ -245,154 +251,6 @@
         gap: 0px;
         opacity: 0px;
     } */
-.container-1 {
-
-
-    /* div.elementor-widget-wrap */
-
-    position: absolute;
-    left: 0px;
-    right: 570px;
-    top: 0px;
-    bottom: 0px;
-
-
-
-
-}
-
-.step {
-    /* Heading 2 */
-
-    position: absolute;
-    height: 25px;
-    left: 10px;
-    right: 10px;
-    top: 212px;
-
-
-}
-
-.sub-text {
-    /* Heading 2 */
-
-    position: absolute;
-    height: 20px;
-    left: 10px;
-    right: 10px;
-    top: 257px;
-
-
-
-
-
-}
-
-.box {
-    /* div#wp24-dc-1 */
-
-    position: absolute;
-    height: 61px;
-    left: 10px;
-    right: 10px;
-    top: 297px;
-
-
-}
-
-
-.box span {
-    /* Form → www.  */
-
-    position: absolute;
-    width: 44.98px;
-    height: 21px;
-    left: 0px;
-    top: 9.5px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 21px;
-    /* identical to box height, or 140% */
-    display: flex;
-    align-items: center;
-
-    color: #000000;
-
-
-}
-
-.box input[type="text"] {
-    /* Form → Input */
-
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 250px;
-    height: 40px;
-    left: 44.64px;
-    top: calc(50% - 40px/2 - 10.5px);
-
-    border: 1px solid #E0E0E0;
-    border-radius: 3px;
-
-}
-
-.box select {
-    /* Form → Options */
-
-    /* Form → Options */
-
-    box-sizing: border-box;
-
-    position: absolute;
-    height: 40px;
-    left: 318.27px;
-    right: 95.31px;
-    width: 136.42px;
-    top: calc(50% - 40px/2 - 10.5px);
-
-    border: 1px solid #E0E0E0;
-    border-radius: 3px;
-
-
-
-}
-
-.box button {
-    /* width: 85.31px;
-        height: 40px;
-        left: 464.69px;
-        padding: 9.5px 19.66px 9.5px 20px;
-        gap: 0px;
-        border-radius: 3px 0px 0px 0px;
-        opacity: 0px;
-        border: none;
-        color: #FFFFFF;
-        background: #7456F1;
-        */
-
-    /* Form → Input */
-
-    position: absolute;
-    width: 85.31px;
-    height: 40px;
-    left: 464.69px;
-    top: calc(50% - 40px/2 - 10.5px);
-
-    background: #7456F1;
-    border-radius: 3px;
-    border: none;
-    color: white;
-    transition: 0.03s;
-
-}
-
-.box button :hover {
-    background-color: #210493;
-}
 
 .laptop-1 {
 
