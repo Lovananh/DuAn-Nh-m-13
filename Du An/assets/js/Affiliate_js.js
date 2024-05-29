@@ -43,8 +43,6 @@ document.getElementById('main-form').addEventListener('submit', function (event)
     });
 
     alert('Đăng ký thành công!');
-    // Xử lý gửi form hoặc AJAX tại đây
-
     window.location.href = 'https://www.example.com';
 });
 
