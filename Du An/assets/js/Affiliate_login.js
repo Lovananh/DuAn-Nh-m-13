@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Nếu không trống, chuyển hướng đến trang index.html
-        window.location.href = '../Du An/index.html';
+        window.location.href = './index.html';
     });
 
     // Xử lý sự kiện cuộn lên đầu trang
