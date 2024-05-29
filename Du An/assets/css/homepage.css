@@ -975,7 +975,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    /* font-size: 25px; */
+    font-size: 16px;
     line-height: 25px;
     /* identical to box height, or 100% */
     display: flex;
@@ -1019,7 +1019,7 @@
     /* Heading 2 → Editing & Design */
 
     position: absolute;
-    width: 208.88px;
+    width: 210.88px;
     height: 25px;
     left: 410px;
     top: 20px;
@@ -1027,7 +1027,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 16px;
     line-height: 25px;
     /* identical to box height, or 100% */
     display: flex;
@@ -1164,7 +1164,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 16px;
     line-height: 25px;
     /* identical to box height, or 100% */
     display: flex;
@@ -1201,7 +1201,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 16px;
     line-height: 25px;
     /* identical to box height, or 100% */
     display: flex;
@@ -1250,7 +1250,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 16px;;
     line-height: 25px;
     /* identical to box height, or 100% */
     display: flex;
@@ -1593,7 +1593,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 20px;
         /* identical to box height, or 130% */
         display: flex;

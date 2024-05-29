@@ -99,7 +99,7 @@
     height: 17px;
 }
 
-.login {  
+.login {
     width: 20px;
     height: 20px;
 }
@@ -132,7 +132,7 @@
 }
 
 .right:hover {
-    background-color:  #1f0393;
+    background-color: #1f0393;
 }
 
 .logo {
@@ -226,62 +226,168 @@
 
 }
 
-/* .step {
-    width: 1140px;
-    height: 570px;
-    top: 575px;
-    left: 390px;
-    gap: 0px;
-    opacity: 0px;
+.main-data {
+    position: absolute;
+    height: 2466px;
+    width: 1920px;
+
 }
 
-.step-small-1 {
-    width: 570px;
-    height: 570px;
-    padding: 0px 10px 0px 10px;
-    gap: 0px;
-    opacity: 0px;
+.box-1dis {
+    /* Section */
 
-    /* h2 {
-        width: 550px;
+    position: absolute;
+    width: 1140px;
+    height: 570px;
+    left: calc(50% - 1140px/2);
+    top: 57px;
+
+
+}
+
+.container-1 {
+    /* div.elementor-widget-wrap */
+
+    position: absolute;
+    left: 0px;
+    right: 570px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.step {
+
+    /* Heading 2 */
+
+    position: absolute;
+    height: 25px;
+    left: 10px;
+    right: 10px;
+    top: 212px;
+
+
+    a {
+
+        position: absolute;
+        width: 72.92px;
         height: 25px;
-        top: 212px;
-        left: 10px;
-        padding: 0px 477.08px 0px 0px;
-        gap: 0px;
-        opacity: 0px;
-    } */
+        left: 0px;
+        top: 0px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 25px;
+
+        display: flex;
+        align-items: center;
+
+        color: #102136;
+
+
+    }
+
+}
+
+.sub-text {
+    /* Heading 2 */
+
+    position: absolute;
+    height: 20px;
+    left: 10px;
+    right: 10px;
+    top: 257px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+
+}
+
+.box {
+    /* div#wp24-dc-1 */
+
+    position: absolute;
+    height: 61px;
+    left: 10px;
+    right: 10px;
+    top: 297px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+
+input {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 44.64px;
+    top: calc(50% - 40px/2 - 10.5px);
+
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+
+}
+
+select {
+    /* Form → Options */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 40px;
+    left: 318.27px;
+    right: 95.31px;
+    top: calc(50% - 40px/2 - 10.5px);
+
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+
+}
 
 .laptop-1 {
 
     position: absolute;
     left: 570px;
+    height: 570px;
+    width: 570px;
     right: 0px;
     top: 0px;
     bottom: 0px;
-    background: url(./div.elementor-widget-wrap.png)no-repeat;
+    background: url(../image/pic-1-dis.png)no-repeat;
 
 
 }
 
+button {
+    /* Form → Input */
+
+    position: absolute;
+    width: 85.31px;
+    height: 40px;
+    left: 464.69px;
+    top: calc(50% - 40px/2 - 10.5px);
+    border: none;
+    background: #7456F1;
+    border-radius: 3px;
+    color: white;
+}
 
 
 .launch {
     /* Section */
 
-    /* position: absolute;
+    position: absolute;
     height: 670px;
     left: 0px;
     right: 0px;
-    top: 1195px;
-
-    background: #0d2fc8; */
-    width: 1140px;
-    height: 570px;
-    top: 575px;
-    left: 390px;
-    gap: 0px;
-    opacity: 0px;
+    top: 650px;
+    background: #EFF2FF;
 
 
 }
@@ -289,36 +395,39 @@
 
 
 .main-launch {
-    background: url(./laptop-illustration.webp.png)no-repeat;
-    /* laptop-illustration.webp */
 
-    /* position: absolute;
+    position: absolute;
     width: 550px;
     height: 550px;
     left: calc(50% - 550px/2 - 285px);
-    top: calc(50% - 550px/2); */
-    width: 550px;
-    height: 550px;
-    top: 60px;
-    left: 200px;
-    gap: 0px;
-    opacity: 0px;
+    top: calc(50% - 550px/2);
+
+    background: url(../image/pic-2-dis.png)no-repeat;
+
 
 }
 
+.res-data {
+    background-color: #d5d6d63b;
+    position: absolute;
+    top: 1320px;
+    width: 1920px;
+    height: 1280px;
+}
+
 .text-resources {
-    /* Section → Heading 2 → Recources that you need */
 
     position: absolute;
     width: 521.83px;
     height: 61px;
-    left: calc(50% - 521.83px/2 + 0.15px);
-    top: 1925px;
+    left: 0px;
+    right: 0px;
+    top: 115px;
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 41px;
+    font-size: 27px;
     line-height: 41px;
     /* or 100% */
     display: flex;
@@ -326,6 +435,8 @@
     text-align: center;
 
     color: #102136;
+
+
 
 
 }
@@ -337,23 +448,233 @@
     width: 1120px;
     height: 395.55px;
     left: calc(50% - 1120px/2);
-    top: 2036px;
+    top: 200px;
 
-    background-color: #10daa1;
+   /* background-color: #8faf1d; */
+}
+h3{
+
+position: absolute;
+width: 101.28px;
+height: 20px;
+left: calc(50% - 101.28px/2 + 0.17px);
+top: 122.98px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #102136;
+
+
+}
+.resource-cards p{
+    /* Elementor is a drag-and-drop page builder for WordPress. This plugin helps you create beautiful pages using a visual editor. It's designed for you to build dynamic websites quickly. */
+
+position: absolute;
+width: 294.6px;
+height: 98px;
+left: calc(50% - 294.6px/2 + 1.69px);
+top: 168.17px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 140% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+}
+.card {
+    background: white;
+    border-radius: 10px ;
+    margin: 10px;
+    position: absolute;
+    left: 0px;
+    right: 746.67px;
+    top: 0px;
+    bottom: 0px;
+
+
+
+}
+
+.card2 {
+    background: white;
+    border-radius: 10px ;
+    margin: 10px;
+    position: absolute;
+    left: 373.33px;
+    right: 373.34px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.card3 {
+
+    background: white;
+    border-radius: 10px ;
+    margin: 10px;
+    position: absolute;
+    left: 746.66px;
+    right: 0.01px;
+    top: 0px;
+    bottom: 0px;
+
+
+
+}
+
+.card4 {
+    background: white;
+    border-radius: 10px ;
+    margin: 10px;
+    position: absolute;
+    left: 0px;
+    right: 746.67px;
+    top: 0px;
+    bottom: 0px;
+
+
+}
+
+.card5 {
+    background: white;
+    border-radius: 10px ;
+    margin: 10px;
+    position: absolute;
+    left: 373.33px;
+    right: 373.34px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.card6 {
+
+    background: white;
+    border-radius: 10px ;
+    margin: 10px;
+    position: absolute;
+    left: 746.66px;
+    right: 0.01px;
+    top: 0px;
+    bottom: 0px;
+
+}
+
+.pic-1-data {
+
+    position: absolute;
+    width: 87.98px;
+    height: 87.98px;
+    left: calc(50% - 87.98px/2 - 0px);
+    top: 30px;
+
+    background: url(../image/data_ser/pic-data-1.png)no-repeat;
+}
+
+.pic-2-data {
+
+
+    position: absolute;
+    width: 87.98px;
+    height: 87.98px;
+    left: calc(50% - 87.98px/2 - 0px);
+    top: 30px;
+
+    background: url(../image/data_ser/pic-data-2.png)no-repeat;
+}
+
+.pic-3-data {
+
+    position: absolute;
+    width: 87.98px;
+    height: 87.98px;
+    left: calc(50% - 87.98px/2 - 0px);
+    top: 30px;
+    background: url(../image/data_ser/pic-data-3.png)no-repeat;
+}
+.pic-4-data {
+
+    position: absolute;
+    width: 87.98px;
+    height: 87.98px;
+    left: calc(50% - 87.98px/2 - 0px);
+    top: 30px;
+
+    background: url(../image/data_ser/pic-data-4.png)no-repeat;
+}
+
+.pic-5-data {
+
+    position: absolute;
+    width: 87.98px;
+    height: 87.98px;
+    left: calc(50% - 87.98px/2 - 0px);
+    top: 30px;
+
+    background: url(../image/data_ser/pic-data-5.png)no-repeat;
+}
+
+.pic-6-data {
+
+    position: absolute;
+    width: 87.98px;
+    height: 87.98px;
+    left: calc(50% - 87.98px/2 - 0px);
+    top: 30px;
+
+    background: url(../image/data_ser/pic-data-6.png)no-repeat;
+}
+
+.resource-one {
+
+    position: absolute;
+    width: 1120px;
+    height: 395.55px;
+    top: 0px;
+    left: calc(50% - 1120px/2);
+    /* background-color: yellow; */
+}
+
+.resource-two {
+  
+
+    position: absolute;
+    width: 1120px;
+    height: 415.14px;
+    left: calc(50% - 1120px/2);
+    top: 515px;
+    /* background-color: rgb(22, 223, 99); */
+
+
 }
 
 /* foooter */
 
 
+
 .footer-home {
-    /* Footer */
 
     position: absolute;
     width: 1920px;
     height: 501.59px;
     left: 0px;
     right: 0px;
-    top: 2351px;
+    top: 3120.5px;
+
     background: #F3F5F7;
 }
 
@@ -392,7 +713,7 @@
 }
 
 .logo-end {
-    background: url(./mexemy-logo.png) no-repeat;
+    background: url(../image/mexemy-logo.png) no-repeat;
     /* Figure */
 
     position: absolute;
@@ -557,7 +878,7 @@
 }
 
 .social-icons {
-    background: url(./Pay-With-logo-All.png) no-repeat;
+    background: url(../image/Pay-With-logo-All.png) no-repeat;
 
     position: absolute;
     width: 396.67px;
@@ -621,7 +942,7 @@
 }
 
 .Facebook {
-    background: url(./facebook.png)no-repeat;
+    background: url(../image/facebook.png)no-repeat;
     /* Link - Facebook → SVG */
 
     position: absolute;
@@ -634,7 +955,7 @@
 }
 
 .insta {
-    background: url(./insta.png)no-repeat;
+    background: url(../image/insta.png)no-repeat;
     /* Link - Instagram → SVG */
 
     position: absolute;
@@ -647,7 +968,7 @@
 }
 
 .yt {
-    background: url(./yt.png)no-repeat;
+    background: url(../image/yt.png)no-repeat;
     /* Link - YouTube → SVG */
     position: absolute;
     width: 18px;
