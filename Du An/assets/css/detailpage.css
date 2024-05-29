@@ -9,7 +9,7 @@
 
     position: relative;
     width: 1920px;
-    height: 1364px;
+    height: 5165px;
 
     background: #FFFFFF;
 
@@ -24,6 +24,9 @@
 
 }
 
+/* .main-main {
+    display: flex;
+} */
 
 .go-to-top {
     /* Link - Go to top */
@@ -35,7 +38,7 @@
     top: 1017px;
     background: url(../image/Link\ -\ Go\ to\ top.png) no-repeat;
     border-radius: 36px;
-
+    z-index: 1;
 }
 
 .menu {
@@ -114,7 +117,7 @@
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 14px;
-    background: #5E3FDE;
+    /* background: #5E3FDE; */
     color: #FFFF;
 
     border-radius: 3px;
@@ -124,249 +127,302 @@
     background-color: #5A20CB;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    margin-left: 16px;
+    margin-left: 1rem;
+    transition: background-color 0.3s;
 }
 
 .right:hover {
-    background-color:  #1f0393;
+    background-color: #1f0393;
 }
-
 
 .logo {
     background: url(../image/logo.png) no-repeat left;
     margin-left: auto;
     width: 691.33px;
     height: 70px;
-    ;
     display: flex;
 }
 
-.main-container {
-
-position: absolute;
-width: 1920px;
-height: 878px;
-left: calc(50% - 1920px/2);
-top: 70px;
-
-
-}
-/* phần thân */
-
-
-.main-box {
-    position: absolute;
-    display: flex;
-    width: 550px;
-    height: 1050px;
-
-    left: 675px;
-    right: 695px;
-    top: 184px;
-    bottom: 60px;
-
-    background: #FFFFFF;
-    /* box-shadow: 5px 5px 0px rgba(192, 192, 192, 0.58); */
-    border-radius: 10px;
-}
-
-/* input[type=text], input[type=password],input[type=email] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    box-sizing: border-box;
-
-    Input
-
-
-position: absolute;
-height: 40px;
-left: 0px;
-right: 0px;
-top: 21px;
-border: 1px solid #E0E0E0;
-border-radius: 3px;
-
-  } */
-
-.text-one {
-    position: absolute;
-    /* display: flex; */
-    top: 0px;
-    left: 0px;
-    right: 0px;
-}
-
-.main{
-    /* Article */
-
-position: absolute;
-width: 520px;
-height: 818px;
-left: calc(50% - 520px/2);
-top: 64px;
-
-background: rgba(255, 255, 255, 0.002);
-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-border-radius: 5px;
-
-}
-#main-form {
-    display: flex;
-    flex-direction: column;
-    top: 30px;
-}
-
-.form-group {
-   position: absolute;
-    height: 61px;
-    left: 30px;
-    right: 30px;
-    top: 62px;
-
-}
-
-.form-group2 {
-    position: absolute;
-    height: 61px;
-    left: 30px;
-    right: 30px;
-    top: 163px;
-
-}
-
-.form-group3 {
-    position: absolute;
-    height: 61px;
-    left: 30px;
-    right: 30px;
-    top: 264px;
-
-}
-
-.form-group4 {
-    position: absolute;
-    height: 61px;
-    left: 30px;
-    right: 30px;
-    top: 365px;
+.heading {
    
-}
 
-.form-group5 {
     position: absolute;
-    height: 61px;
-    left: 30px;
-    right: 30px;
-    top: 466px;
-
-}
-
-.form-group6 {
-    position: absolute;
-    height: 61px;
-    left: 30px;
-    right: 30px;
-    top: 574px;
-
-}
-
-
-.form-group7 {
-    position: absolute;
-    width:472px;
-    height: 40px;
-    left: 30px;
-    top:730px;
-    border-radius: 3px;
-}
-
-.btn-submit {
-    background-color: #7456F1;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 600;
-    top: 0px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    /* Form → Button */
-
-position: absolute;
-height: 40px;
-left: 24px;
-right: 24px;
-/* top: calc(50% - 40px/2 + 333px); */
-
-/* background: #7456F1; */
-border-radius: 3px;
-
-}
-
-.btn-submit:hover {
-    background-color:  #3c1ac4;
-}
-
-label {
-    /* color: #102136; */
-    margin-bottom: 5px;
-    display: block;
-    b {
-        position: absolute;
-        width: 100%;
-        height: 21px;
-        left: 0px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 21px;
-        display: flex;
-        align-items: center;
-
-        color: #000000;
-    }
-}
-
-input {
-    box-sizing: border-box;
-    position: absolute;
-    height: 40px;
+    height: 4608.84px;
     left: 0px;
     right: 0px;
-    top: 21px;
-    display: block;
-    border: 1px solid #E0E0E0;
-    border-radius: 3px;
+    top: 70px;
+    background-color: rgba(213, 209, 209, 0.296);
+
+
 }
 
+.heading-main {
 
 
-.form-group-check {
-    display: flex;
-    /* width: 490px; */
+position: absolute;
+width: 1290px;
+height: 4548.84px;
+left: calc(50% - 1290px/2);
+top: 30px;
+
+
+}
+
+.text-5 {
+    /* background-color: blue;
     position: absolute;
-    /* height: 21px; */
-    /* left: 30px; */
-    /* right: 30px; */
-    /* top: 934px; */
+    display: flex;
+    width: 50px;
+    height: 50px; */
+    /* Header → 5.00 */
 
-    /* Form → By signing up, I agree with the website's  */
+    position: absolute;
+    /* width: 115px; */
+    height: 19.6px;
+    left: 116px;
+    top: 0.59px;
 
-width: 474.92px;
-height: 35px;
-left: 24px;
-top: 680px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 140% */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+.text-right1 {
+    /* background-color: rgb(16, 144, 29);
+    position: absolute;
+    display: flex;
+    top: 50px;
+    width: 50px;
+    height: 50px; */
+    /* Header → Link → Wishlist */
+
+    position: absolute;
+    width: 56.81px;
+    height: 21px;
+    left: 1144.2px;
+    top: calc(50% - 21px/2 - 2178.84px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height, or 140% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.text-right2 {
+    /* background-color: rgb(137, 19, 137);
+    position: absolute;
+    display: flex;
+    top: 100px;
+    width: 50px;
+    height: 50px; */
+    /* Header → Link → Share */
+
+    position: absolute;
+    width: 43.78px;
+    height: 21px;
+    left: 1245.55px;
+    top: calc(50% - 21px/2 - 2178.84px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height, or 140% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.text-heading1 {
+
+position: absolute;
+width: 1010.15px;
+height: 15px;
+left: 0px;
+top: 41.89px;
 
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 21px;
+font-weight: 600;
+font-size: 30px;
+line-height: 15px;
+/* identical to box height, or 50% */
+display: flex;
+align-items: center;
 
+color: #102136;
+
+
+
+
+
+
+}
+
+.pic-desgin-small {
+
+position: absolute;
+width: 36px;
+left: 0px;
+top: 77.39px;
+bottom: 4435.45px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 0px 1px #CDCFD5;
+border-radius: 100px;
+
+}
+
+.name-dis {
+    /* background-color: rgb(40, 177, 18);
+    position: absolute;
+    display: flex;
+    top: 250px;
+    width: 50px;
+    height: 50px; */
+
+    /* Header → By  */
+
+    position: absolute;
+    width: 151.63px;
+    height: 18.2px;
+    left: 52px;
+    top: 86.2px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 130% */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+.info {
+    /* background-color: rgb(80, 80, 178);
+    position: absolute;
+    display: flex;
+    top: 300px;
+    width: 50px;
+    height: 50px; */
+    /* Header → Categories:  */
+
+    position: absolute;
+    width: 347.44px;
+    height: 18.2px;
+    left: 219.31px;
+    top: 86.2px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 130% */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+.box-one {
+    background-color: rgb(26, 196, 215);
+   /* Main */
+
+position: absolute;
+left: 0px;
+right: 430px;
+top: 138.39px;
+bottom: 0px;
+
+
+
+
+}
+
+.pic-video-demo {
+    background-color: rgb(91, 171, 85);
+
+position: absolute;
+height: 483.75px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+
+}
+
+.control {
+
+
+position: absolute;
+height: 43.59px;
+left: 0px;
+right: 0px;
+top: 515.75px;
+
+background: rgba(255, 255, 255, 0.6);
+backdrop-filter: blur(7px);
+/
+
+
+}
+.textt{
+/* div.tutor-course-details-content */
+
+position: absolute;
+height: 200px;
+left: 0px;
+right: 0px;
+top: 583.34px;
+
+
+}
+.text-heading-one{
+    /* Heading 2 → About Course */
+
+position: absolute;
+width: 140.72px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
 display: flex;
 align-items: center;
 
@@ -374,48 +430,273 @@ color: #000000;
 
 
 }
+.bi-till-1{
+    /* Item */
+
+position: absolute;
+width: 131.03px;
+left: 0px;
+top: 0px;
+bottom: 0px;
 
 
-.form-group-check input {
-    margin-left: 0px;
-    box-sizing: border-box;
-    display: flex;
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    top:    4px;
-    /* left: 0px; */
-    background: #FFFFFF;
-    border: 1px solid #767676;
-    border-radius: 2.5px;
+}
+.bi-till-2{
+    /* Item */
+
+position: absolute;
+width: 103.95px;
+left: 131.03px;
+top: 0px;
+bottom: 1px;
+
+
+}
+.till-1 {
+/* Course Info */
+
+position: absolute;
+width: 91.37px;
+height: 25.6px;
+left: 20px;
+top: 7.7px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+
+color: #5A18C2;
+
+
 
 }
 
-.form-group-check label {
-    
+.till-2 {
+/* Link → Reviews */
+
 position: absolute;
+width: 64.35px;
+height: 25.6px;
+left: 20px;
+top: 7.7px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+
+color: #41454F;
+
+
+
+}
+
+.text-heading-one {
+    /* div.tutor-course-details-content */
+
+    position: absolute;
+    height: 200px;
+    left: 0px;
+    right: 0px;
+    top: 583.34px;
+
+
+}
+
+.box-two{
+/* Aside */
+
+box-sizing: border-box;
+
+position: absolute;
+height: 390.16px;
+left: 900px;
+right: 0px;
+top: 138.39px;
+
+background: #FFFFFF;
+border: 1px solid #CDCFD5;
+border-radius: 6px;
+
+}
+
+.pay{
+    /* div.tutor-card-body */
+
+position: absolute;
+height: 200.78px;
+left: 1px;
+right: 1px;
+top: 1px;
+display: flex;
+background: #F4F6F9;
+border-radius: 6px 6px 6px 6px;
+
+}
+.money{
+
+    position: absolute;
+    width: 125.52px;
+    height: 38.4px;
+    left: 32px;
+    top: 31.3px;
+    
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 21px;
-    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    /* identical to box height, or 160% */
     display: flex;
     align-items: center;
     
     color: #000000;
+    
+    
+}
+.money-old{
+/* Del → 3,999.00 */
+
+position: absolute;
+width: 72.14px;
+height: 22.4px;
+left: 165.13px;
+top: 42.8px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+text-decoration-line: line-through;
+
+color: #757C8E;
+
+opacity: 0.5;
+
+}
+.pay-monney{
+    /* Form → Button */
+/* Form → Button */
+
+position: absolute;
+width: 234px;
+height: 40px;
+left: 32px;
+right: 32px;
+top: calc(50% - 40px/2 + 14px);
+
+background: #7456F1;
+border-radius: 3px;
+
+}
+.text-money{
+    /* Enroll Now */
+
+position: absolute;
+width: 78.2px;
+height: 21px;
+left: calc(50% - 78.2px/2 + 0.33px);
+top: 9.5px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 21px;
+/* identical to box height, or 140% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+.text-mini{
+    /* Enrollment validity: */
+
+position: absolute;
+width: 135.62px;
+height: 22.4px;
+left: 54px;
+top: 146.19px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+
+color: #757C8E;
+
+
+}
+.text-mini2{
+    /* Lifetime */
+
+position: absolute;
+width: 55.67px;
+height: 22.4px;
+left: 192.17px;
+top: 146.19px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 160% */
+display: flex;
+align-items: center;
+
+color: #757C8E;
+
+
+}
+
+.text-info{
+    /* div.tutor-card-footer */
+
+box-sizing: border-box;
+
+position: absolute;
+height: 187.38px;
+left: 1px;
+right: 1px;
+top: 201.78px;
+
+border-top: 1px solid #CDCFD5;
+border-radius: 0px 0px 5px 5px;
+
 }
 
 /* footer */
 
 .footer-home {
+    /* Footer */
 
     position: absolute;
     width: 1920px;
     height: 501.59px;
     left: 0px;
     right: 0px;
-    top: 1364.5px;
+    top: 4683px;
 
     background: #F3F5F7;
 }

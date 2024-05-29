@@ -25,19 +25,7 @@
 }
 
 
-.go-to-top {
-    /* Link - Go to top */
 
-    position: absolute;
-    height: 36px;
-    left: 1859px;
-    right: 25px;
-    top: 1017px;
-    background: url(../image/Link\ -\ Go\ to\ top.png) no-repeat;
-    border-radius: 36px;
-      /* cursor: pointer; */
-
-}
 
 .menu {
 
